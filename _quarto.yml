@@ -1,0 +1,7 @@
+project:
+  title: "r4data"
+  type: website
+  output-dir: docs
+
+editor: visual
+

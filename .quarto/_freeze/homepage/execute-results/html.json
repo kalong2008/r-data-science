@@ -1,0 +1,17 @@
+{
+  "hash": "5bd2dc298bc6aa7d26773a36257b09ab",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: R Example\nengine: knitr\nformat: live-html\nwebr:\n  packages:\n    - dplyr\n    - palmerpenguins\n    - ggplot2\n    - lme4\nresources:\n  - data\n---\n\n::: {.cell}\n\n:::\n\n::: {.cell}\n```{webr}\nfor (x in 1:5) {\n  print(x ** 2)\n}\n```\n:::",
+    "supporting": [
+      "homepage_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
